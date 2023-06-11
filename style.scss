@@ -3,27 +3,26 @@
     background: #E95D2A;
     padding-top: 11px;
     &_content{
-        width: 95%;
+        width: 1440px;
         height: 27px;
         background: firebrick;
         margin: 0 auto;
         display: flex;
-        justify-content: space-between;
         &_logo{
             display: flex;
             width: 195px;
             column-gap: 8px;
         }
         &_sub-items{
-            width: 428px;
+            width: 451px;
             height: 13px;
-            background: darkmagenta;
             margin-top: 7px;
             display: flex;
             align-items: center;
-            column-gap: 22.81px;
+            column-gap: 105px;
+            margin-left: 42px;
             &_city-btn{
-                width: 37.19px;
+                width: 61px;
                 height: 12px;
                 border: none;
                 display: flex;
@@ -35,6 +34,9 @@
                 padding-left: 0;
                 column-gap: 6px;
                 color: white;
+                &_svg1{
+                    fill: none;
+                }
                 &_svg{
                     width: 9.61px;
                     height: 6px;
@@ -42,12 +44,174 @@
             }
             &_two{
                 width: 285px;
-                height: 100px;
-                background: green;
+                height: 13px;
                 display: flex;
-                &_ckale-svg{
-                    width: 12.07px;
-                    height: 12.07px;
+                align-items: center;
+                column-gap: 20px;
+                &_action-cont{
+                    display: flex;
+                    width: 57px;
+                    height: 13px;
+                    align-items: center;
+                    column-gap: 7px;
+                    cursor: pointer;
+                    &_action{
+                        width: 9.75px;
+                        height: 9.75px;
+                    }
+                    &_title{
+                        display: flex;
+                        align-items: center;
+                        width: 40px;
+                        height: 13px;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: white;
+                    }
+                }
+                &_sale-cont{
+                    width: 118px;
+                    height: 12px;
+                    display: flex;
+                    align-items: center;
+                    column-gap: 7px;
+                    cursor: pointer;
+                    &_sale-svg{
+                        width: 12px;
+                        height: 12px;
+                    }
+                    &_title{
+                        display: flex;
+                        align-items: center;
+                        height: 12px;
+                        width: 99px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: white;
+                    }
+                }
+                &_location-cont{
+                    display: flex;
+                    width: 64px;
+                    height: 12px;
+                    column-gap: 7px;
+                    cursor: pointer;
+                    &_svg{
+                        width: 9px;
+                        height: 12px;
+                    }
+                    &_title{
+                        display: flex;
+                        align-items: center;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 10px;
+                        color: white;
+                    }
+                }
+            }
+        }
+        &_right-cont{
+            display: flex;
+            margin-left: 270.66px;
+            margin-top: 6px;
+            width: 468.53px;
+            height: 16px;
+
+            align-items: center;
+            column-gap: 35px;
+            &_buyers{
+                display: flex;
+                width: 82px;
+                height: 15px;
+                background: none;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                color: white;
+                column-gap: 8.21px;
+                border: none;
+                &_svg{
+                    width: 9.61px;
+                    height: 9px;
+                }
+            }
+            &_callcenter{
+                align-items: center;
+                width: 85.38px;
+                height: 16px;
+                display: flex;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                background: none;
+                column-gap: 8.21px;
+                color: white;
+                border: none;
+                &_svg{
+                    width: 9.61px;
+                    height: 6px;
+                }
+            }
+            &_lenguage{
+                height: 17px;
+                width: 54px;
+                display: flex;
+                &_Ukraine{
+                    display: flex;
+                    width: 25.85px;
+                    height: 100%;
+                    background: none;
+                    border-radius: 4px;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    &:focus{
+                        background: rgba(255, 255, 255, 0.3);
+                    }
+                    &_title{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 9px;
+                        color: #fff;
+                    }
+                }
+                &_ru{
+                    border-radius: 4px;
+                    width: 25.85px;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: none;
+                    border: none;
+                    &:focus{
+                        background: rgba(255, 255, 255, 0.3);
+                    }
+                    &_title{
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 9px;
+                        color: #fff;
+                    }
+                }
+            }
+            &_sign-in{
+                &_title{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 10px; 
+                    color: white;
+                    cursor: pointer;
                 }
             }
         }
@@ -55,9 +219,59 @@
     &_two{
         position: absolute;
         top: 45px;
-        background: rgba(0, 0, 0, 0.05);
+        background: rgba(193, 40, 40, 0.05);
         display: flex;
         height: 63px;
         align-items: center;
+        &_content{
+            display: flex;
+            width: 1440px;
+            height: 100%;
+            background: forestgreen;
+            margin-left: 25px;
+            align-items: center;
+            justify-content: space-between;
+            &_menu-container{
+                display: flex;
+                width: 123px;
+                height: 16px;
+                background: fuchsia;
+                align-items: center;
+                column-gap: 8px;
+                cursor: pointer;
+                &_svg{
+                    width: 12px;
+                    height: 11px;
+                }
+                &_title{
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 9px;
+                    color: white;
+                }
+            }
+            &_seach-panel{
+                display: flex;
+                width: 591.36px;
+                height: 46px;
+                background: rgba(255, 255, 255, 0.3);
+                align-items: center;
+                border-radius: 4px 0px 0px 4px;
+                &_icon{
+                    margin-left: 24px;
+                    width: 12.07px;
+                    height: 12.07px;
+                }
+                &_input{
+                    width: 500.95px;
+                    margin-left: 15px;
+                }
+            }
+            &_stats{
+                width: 374.11px;
+                height: 29px;
+                background: darkblue;
+            }
+        }
     }
 }

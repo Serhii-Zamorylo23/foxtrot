@@ -4,12 +4,11 @@
   padding-top: 11px;
 }
 .header_content {
-  width: 95%;
+  width: 1440px;
   height: 27px;
   background: firebrick;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
 }
 .header_content_logo {
   display: flex;
@@ -18,17 +17,17 @@
        column-gap: 8px;
 }
 .header_content_sub-items {
-  width: 428px;
+  width: 451px;
   height: 13px;
-  background: darkmagenta;
   margin-top: 7px;
   display: flex;
   align-items: center;
-  -moz-column-gap: 22.81px;
-       column-gap: 22.81px;
+  -moz-column-gap: 105px;
+       column-gap: 105px;
+  margin-left: 42px;
 }
 .header_content_sub-items_city-btn {
-  width: 37.19px;
+  width: 61px;
   height: 12px;
   border: none;
   display: flex;
@@ -42,25 +41,245 @@
        column-gap: 6px;
   color: white;
 }
+.header_content_sub-items_city-btn_svg1 {
+  fill: none;
+}
 .header_content_sub-items_city-btn_svg {
   width: 9.61px;
   height: 6px;
 }
 .header_content_sub-items_two {
   width: 285px;
-  height: 100px;
-  background: green;
+  height: 13px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.header_content_sub-items_two_action-cont {
+  display: flex;
+  width: 57px;
+  height: 13px;
+  align-items: center;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+  cursor: pointer;
+}
+.header_content_sub-items_two_action-cont_action {
+  width: 9.75px;
+  height: 9.75px;
+}
+.header_content_sub-items_two_action-cont_title {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 13px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+}
+.header_content_sub-items_two_sale-cont {
+  width: 118px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+  cursor: pointer;
+}
+.header_content_sub-items_two_sale-cont_sale-svg {
+  width: 12px;
+  height: 12px;
+}
+.header_content_sub-items_two_sale-cont_title {
+  display: flex;
+  align-items: center;
+  height: 12px;
+  width: 99px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+}
+.header_content_sub-items_two_location-cont {
+  display: flex;
+  width: 64px;
+  height: 12px;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+  cursor: pointer;
+}
+.header_content_sub-items_two_location-cont_svg {
+  width: 9px;
+  height: 12px;
+}
+.header_content_sub-items_two_location-cont_title {
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+}
+.header_content_right-cont {
+  display: flex;
+  margin-left: 270.66px;
+  margin-top: 6px;
+  width: 468.53px;
+  height: 16px;
+  align-items: center;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+}
+.header_content_right-cont_buyers {
+  display: flex;
+  width: 82px;
+  height: 15px;
+  background: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+  -moz-column-gap: 8.21px;
+       column-gap: 8.21px;
+  border: none;
+}
+.header_content_right-cont_buyers_svg {
+  width: 9.61px;
+  height: 9px;
+}
+.header_content_right-cont_callcenter {
+  align-items: center;
+  width: 85.38px;
+  height: 16px;
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  background: none;
+  -moz-column-gap: 8.21px;
+       column-gap: 8.21px;
+  color: white;
+  border: none;
+}
+.header_content_right-cont_callcenter_svg {
+  width: 9.61px;
+  height: 6px;
+}
+.header_content_right-cont_lenguage {
+  height: 17px;
+  width: 54px;
   display: flex;
 }
-.header_content_sub-items_two_ckale-svg {
-  width: 12.07px;
-  height: 12.07px;
+.header_content_right-cont_lenguage_Ukraine {
+  display: flex;
+  width: 25.85px;
+  height: 100%;
+  background: none;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.header_content_right-cont_lenguage_Ukraine:focus {
+  background: rgba(255, 255, 255, 0.3);
+}
+.header_content_right-cont_lenguage_Ukraine_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  color: #fff;
+}
+.header_content_right-cont_lenguage_ru {
+  border-radius: 4px;
+  width: 25.85px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+}
+.header_content_right-cont_lenguage_ru:focus {
+  background: rgba(255, 255, 255, 0.3);
+}
+.header_content_right-cont_lenguage_ru_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  color: #fff;
+}
+.header_content_right-cont_sign-in_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+  cursor: pointer;
 }
 .header_two {
   position: absolute;
   top: 45px;
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(193, 40, 40, 0.05);
   display: flex;
   height: 63px;
   align-items: center;
+}
+.header_two_content {
+  display: flex;
+  width: 1440px;
+  height: 100%;
+  background: forestgreen;
+  margin-left: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_two_content_menu-container {
+  display: flex;
+  width: 123px;
+  height: 16px;
+  background: fuchsia;
+  align-items: center;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  cursor: pointer;
+}
+.header_two_content_menu-container_svg {
+  width: 12px;
+  height: 11px;
+}
+.header_two_content_menu-container_title {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 9px;
+  color: white;
+}
+.header_two_content_seach-panel {
+  display: flex;
+  width: 591.36px;
+  height: 46px;
+  background: rgba(255, 255, 255, 0.3);
+  align-items: center;
+  border-radius: 4px 0px 0px 4px;
+}
+.header_two_content_seach-panel_icon {
+  margin-left: 24px;
+  width: 12.07px;
+  height: 12.07px;
+}
+.header_two_content_seach-panel_input {
+  width: 500.95px;
+  margin-left: 15px;
+}
+.header_two_content_stats {
+  width: 374.11px;
+  height: 29px;
+  background: darkblue;
 }/*# sourceMappingURL=style.css.map */
