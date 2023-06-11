@@ -14,32 +14,42 @@
             width: 195px;
             column-gap: 8px;
         }
-        &_city-btn{
-            width: 37.19px;
-            height: 12px;
-            margin-top: 7px;
-            margin-left: 42.16px;
-            border: none;
-            display: flex;
-            align-items: center;
-            background: tan;
-            justify-content: space-between;
-            font-family: 'Inter', sans-serif;
-            font-weight: 400;
-            font-size: 10px;
-            padding-left: 0;
-            column-gap: 6px;
-            color: white;
-            &_svg{
-                width: 9.61px;
-                height: 6px;
-            }
-        }
         &_sub-items{
-            width: 285px;
+            width: 428px;
             height: 13px;
             background: darkmagenta;
             margin-top: 7px;
+            display: flex;
+            align-items: center;
+            column-gap: 22.81px;
+            &_city-btn{
+                width: 37.19px;
+                height: 12px;
+                border: none;
+                display: flex;
+                align-items: center;
+                background: tan;
+                font-family: 'Inter', sans-serif;
+                font-weight: 400;
+                font-size: 10px;
+                padding-left: 0;
+                column-gap: 6px;
+                color: white;
+                &_svg{
+                    width: 9.61px;
+                    height: 6px;
+                }
+            }
+            &_two{
+                width: 285px;
+                height: 100px;
+                background: green;
+                display: flex;
+                &_ckale-svg{
+                    width: 12.07px;
+                    height: 12.07px;
+                }
+            }
         }
     }
     &_two{
