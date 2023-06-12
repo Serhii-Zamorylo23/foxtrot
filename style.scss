@@ -5,7 +5,6 @@
     &_content{
         width: 1440px;
         height: 27px;
-        background: firebrick;
         margin: 0 auto;
         display: flex;
         &_logo{
@@ -27,7 +26,7 @@
                 border: none;
                 display: flex;
                 align-items: center;
-                background: tan;
+                background:none;
                 font-family: 'Inter', sans-serif;
                 font-weight: 400;
                 font-size: 10px;
@@ -227,7 +226,6 @@
             display: flex;
             width: 1440px;
             height: 100%;
-            background: forestgreen;
             margin-left: 25px;
             align-items: center;
             justify-content: space-between;
@@ -235,7 +233,6 @@
                 display: flex;
                 width: 123px;
                 height: 16px;
-                background: fuchsia;
                 align-items: center;
                 column-gap: 8px;
                 cursor: pointer;
@@ -299,15 +296,101 @@
                 display: flex;
                 width: 374.11px;
                 height: 29px;
-                background: darkblue;
                 align-items: center;
                 &_Comparison{
                     width: 21.23px;
                     height: 17.05px;
+                    cursor: pointer;;
+                }
+                &_heart{
+                    width: 20.25px;
+                    height: 18px;
                     cursor: pointer;
-                    fill: none;
-                    &:hover{
-                        fill: #ff0808;
+                    margin-left: 43px;
+                }
+                &_bonus-balance{
+                    display: flex;
+                    width: 116.95px;
+                    height: 100%;
+                    align-items: center;
+                    margin-left: 28px;
+                    cursor: pointer;
+                    &_foxCoin{
+                        width: 21px;
+                        height: 21px;
+                    }
+                    &_title{
+                        margin-left: 7px;
+                        width: 88.95px;
+                        height: 100%;
+                        &_youreBonus{
+                            width: 100%;
+                            font-family: 'Inter';
+                            font-weight: 400;
+                            font-size: 11px;
+                            color: #FFFFFF80;
+                        }
+                        &_gift{
+                            padding-top: 4px;
+                            font-family: 'Inter';
+                            font-weight: 400;
+                            font-size: 10px;
+                            color: #fff;
+                            &_cont{
+                                position: relative;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                left: 54px;
+                                top: -12px;
+                                width: 34.68px;
+                                height: 17px;
+                                background: yellow;
+                                border-radius: 3px;
+                                &_text{
+                                    font-family: 'Inter';
+                                    font-weight: 400;
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+                &_baket-content{
+                    display: flex;
+                    align-items: center;
+                    width: 118.89px;
+                    height: 100%;
+                    margin-left: 25px;
+                    cursor: pointer;
+                    &_svg{
+                        width: 25.88px;
+                        height: 23px;
+                    }
+                    &_title{
+                        margin-left: 7.32px;
+                        width: 86.02px;
+                        height: 100%;
+                        &_basket{
+                            font-family: 'Inter';
+                            font-weight: 400;
+                            font-size: 11px;
+                            color: #FFFFFF80;
+                        }
+                        &_add{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 100%;
+                            height: 17px;
+                            background: yellow;
+                            border-radius: 3px;
+                            &_goods{
+                                font-family: 'Inter';
+                                font-weight: 400;
+                                font-size: 10px;
+                            }
+                        }
                     }
                 }
             }
