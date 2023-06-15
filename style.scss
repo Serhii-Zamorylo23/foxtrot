@@ -236,6 +236,8 @@
                 align-items: center;
                 column-gap: 8px;
                 cursor: pointer;
+                background: none;
+                border: none;
                 &_svg{
                     width: 12px;
                     height: 11px;
@@ -396,14 +398,74 @@
             }
         }
     }
+    &_content-mob{
+        display: none;
+    }
 }
-@media screen and (min-width:425px){
+@media screen and (max-width: 425px) {
     .header{
         &_two{
-            background: none;
             &_content{
                 &_menu-container{
+                    background: black;
                     width: 100%;
+                }
+                &_seach-panel{
+                    display: none;
+                }
+                &_stats{
+                    &_Comparison{
+                        display: none;
+                    }
+                    &_heart{
+                        display: none;
+                    }
+                    &_bonus-balance{
+                        display: none;
+                    }
+                    &_baket-content{
+                        display: none;
+                    }
+                }
+            }
+        }
+        &_content{
+            display: none;
+        }
+        &_content-mob{
+            display: flex;
+            align-items: center;
+            &_menu-container{
+                &_svg{
+                    width: 38px;
+                    height: 50px;
+                    fill: white;
+                }
+            }
+            &_seach-panel{
+                display: flex;
+                align-items: center;
+                width: 302.73px;
+                height: 34px;
+                background: rgb(251, 251, 251);
+                &_input{
+                    width: 302.73px;
+                    border: none;
+                }
+                &_icon{
+                    width: 13px;
+                    height: 13px;
+                }
+                &_microsvg{
+                    width: 22.1px;
+                    height: 22.1px;
+                }
+                &_baket-content{
+                    margin-left: 10px;
+                    &_svg{
+                        width: 40.88px;
+                        height: 53px; 
+                    }
                 }
             }
         }
