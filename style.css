@@ -410,4 +410,13 @@
   font-family: "Inter";
   font-weight: 400;
   font-size: 10px;
+}
+
+@media screen and (min-width: 425px) {
+  .header_two {
+    background: none;
+  }
+  .header_two_content_menu-container {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
