@@ -413,6 +413,14 @@
     height: 270px;
 }
 @media screen and (max-width: 425px) {
+    .slider{
+        width: 410.6px;
+        height: 270px;
+    }
+    .sliderimg{
+        width: 361px;
+        height: 270px;
+    }
     .header{
         &_two{
             width: 432.4px;
@@ -482,6 +490,22 @@
                         width: 40.88px;
                         height: 53px; 
                     }
+                }
+            }
+        }
+    }
+    .main{
+        &_offers{
+            background: tomato;
+            margin: 20px auto;
+            width: 410.6px;
+            height: 246px;
+            &_container-title{
+                width: 410.6px;
+                height: 46px;
+                &_title{
+                    font-size: 24px;
+                    font-family: 'Inter', sans-serif;
                 }
             }
         }

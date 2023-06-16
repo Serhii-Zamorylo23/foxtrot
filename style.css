@@ -430,6 +430,14 @@
 }
 
 @media screen and (max-width: 425px) {
+  .slider {
+    width: 410.6px;
+    height: 270px;
+  }
+  .sliderimg {
+    width: 361px;
+    height: 270px;
+  }
   .header_two {
     width: 432.4px;
     padding: 0, 0, 0, 0;
@@ -496,5 +504,19 @@
   .header_content-mob_seach-panel_baket-content_svg {
     width: 40.88px;
     height: 53px;
+  }
+  .main_offers {
+    background: tomato;
+    margin: 20px auto;
+    width: 410.6px;
+    height: 246px;
+  }
+  .main_offers_container-title {
+    width: 410.6px;
+    height: 46px;
+  }
+  .main_offers_container-title_title {
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
   }
 }/*# sourceMappingURL=style.css.map */
