@@ -505,6 +505,10 @@
     width: 40.88px;
     height: 53px;
   }
+  .slider2 {
+    width: 220.55px;
+    height: 173px;
+  }
   .main_offers {
     background: tomato;
     margin: 20px auto;
@@ -518,5 +522,151 @@
   .main_offers_container-title_title {
     font-size: 24px;
     font-family: "Inter", sans-serif;
+  }
+  .main_title {
+    margin: 24px 7px;
+    width: 328px;
+    height: 60px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+  }
+  .main_products-div {
+    width: 422PX;
+    height: 206.6px;
+    margin: 0 auto;
+  }
+  .main_products-div_scroll {
+    background: rgb(102, 255, 6);
+    display: flex;
+    width: 422PX;
+    height: 206.6px;
+  }
+  .main_products-div_scroll_item {
+    padding: 8px;
+    border-right: 1mm solid gray;
+    width: 160px;
+    height: 260px;
+    background: darkcyan;
+  }
+  .main_products-div_scroll_item_img-container {
+    display: flex;
+    width: 144px;
+    height: 104px;
+    background: firebrick;
+  }
+  .main_products-div_scroll_item_img-container_img {
+    margin: 0 auto;
+    width: 104px;
+    height: 104px;
+  }
+  .main_products-div_scroll_item_img-container_discrout {
+    width: 30px;
+    height: 10px;
+  }
+  .main_products-div_scroll_item_img-container_options-product {
+    display: flex;
+    margin-top: 15%;
+    width: 14.68;
+    height: 52px;
+    background: forestgreen;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .main_products-div_scroll_item_img-container_options-product_heart {
+    width: 13.5px;
+    height: 16px;
+  }
+  .main_products-div_scroll_item_img-container_options-product_Comparison {
+    width: 14.68px;
+    height: 16px;
+  }
+  .main_products-div_scroll_item_info-container {
+    width: 144px;
+    height: 103.6px;
+    background: gold;
+  }
+  .main_products-div_scroll_item_info-container_name-cotainer {
+    width: 144px;
+    flex-wrap: nowrap;
+  }
+  .main_products-div_scroll_item_info-container_name-cotainer_name {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18.4px;
+  }
+  .main_products-div_scroll_item_info-container_rating-container {
+    display: flex;
+    align-items: center;
+    width: 72.4px;
+    height: 22px;
+    background: rgb(37, 139, 0);
+    margin-top: 5px;
+  }
+  .main_products-div_scroll_item_info-container_rating-container_star-active {
+    width: 9px;
+    height: 9px;
+  }
+  .main_products-div_scroll_item_info-container_rating-container_star-deactive {
+    width: 9px;
+    height: 9px;
+  }
+  .main_products-div_scroll_item_info-container_rating-container_coment {
+    display: flex;
+    align-items: center;
+    width: 12.4px;
+    height: 22px;
+    background: firebrick;
+    margin-left: 15px;
+  }
+  .main_products-div_scroll_item_info-container_rating-container_coment_svg {
+    width: 104.4px;
+    height: 8px;
+  }
+  .main_products-div_scroll_item_info-container_price-cont {
+    display: flex;
+    margin-top: 3px;
+    width: 144PX;
+    height: 37px;
+    background: forestgreen;
+  }
+  .main_products-div_scroll_item_info-container_price-cont_price {
+    width: 96px;
+    height: 32px;
+    background: fuchsia;
+  }
+  .main_products-div_scroll_item_info-container_price-cont_price_old {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 69.16px;
+    height: 12px;
+    background: #E95D2A;
+  }
+  .main_products-div_scroll_item_info-container_price-cont_price_old_price-old {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    text-decoration-line: line-through;
+    color: gray;
+  }
+  .main_products-div_scroll_item_info-container_price-cont_price_old_action-div {
+    display: flex;
+    align-items: center;
+    width: 33.65px;
+    height: 10px;
+    background: yellow;
+    border-radius: 3px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+  }
+  .main_products-div_scroll_item_info-container_price-cont_price_action-price {
+    font-weight: 600;
+    font-size: 20PX;
+  }
+  span {
+    color: #e95d2a;
   }
 }/*# sourceMappingURL=style.css.map */

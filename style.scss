@@ -494,6 +494,10 @@
             }
         }
     }
+    .slider2{
+        width: 220.55px;
+        height: 173px;
+    }
     .main{
         &_offers{
             background: tomato;
@@ -509,5 +513,151 @@
                 }
             }
         }
+        &_title{
+            margin: 24px 7px;
+            width: 328px;
+            height: 60px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+        }
+        &_products-div{
+            width: 422PX;
+            height: 206.6px;
+            margin: 0 auto;
+            &_scroll{
+                background: rgb(102, 255, 6);
+                display: flex;
+                width: 422PX;
+                height: 206.6px;
+                &_item{
+                    padding: 8px;
+                    border-right: 1mm solid gray;
+                    width: 160px;
+                    height: 260px;
+                    background: darkcyan;
+                    &_img-container{
+                        display: flex;
+                        width: 144px;
+                        height: 104px;
+                        background: firebrick;
+                        &_img{
+                            margin: 0 auto;
+                            width: 104px;
+                            height: 104px;
+                        }
+                        &_discrout{
+                            width: 30px;
+                            height: 10px;
+                        }
+                        &_options-product{
+                            display: flex;
+                            margin-top: 15%;
+                            width: 14.68;
+                            height: 52px;
+                            background: forestgreen;
+                            flex-direction: column;
+                            row-gap: 10px;
+                            &_heart{
+                                width: 13.5px;
+                                height: 16px;
+                            }
+                            &_Comparison{
+                                width: 14.68px;
+                                height: 16px;
+                            }
+                        }
+                    }
+                    &_info-container{
+                        width: 144px;
+                        height: 103.6px;
+                        background: gold;
+                        &_name-cotainer{
+                            width: 144px;
+                            flex-wrap: nowrap;
+                            &_name{
+                                font-family: 'Inter', sans-serif;
+                                font-weight: 400;
+                                font-size: 10px;
+                                line-height: 18.4px;
+                            }
+                        }
+                        &_rating-container{
+                            display: flex;
+                            align-items: center;
+                            width: 72.4px;
+                            height: 22px;
+                            background: rgb(37, 139, 0);
+                            margin-top: 5px;
+                            &_star-active{
+                                width: 9px;
+                                height: 9px;
+                            }
+                            &_star-deactive{
+                                width: 9px;
+                                height: 9px;
+                            }
+                            &_coment{
+                                display: flex;
+                                align-items: center;
+                                width: 12.4px;
+                                height: 22px;
+                                background: firebrick;
+                                margin-left: 15px;
+                                &_svg{
+                                    width: 104.4px;
+                                    height: 8px;
+                                }
+                            }
+                        }
+                        &_price-cont{
+                            display: flex;
+                            margin-top: 3px;
+                            width: 144PX;
+                            height: 37px;
+                            background: forestgreen;
+                            &_price{
+                                width: 96px;
+                                height: 32px;
+                                background: fuchsia;
+                                &_old{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 69.16px;
+                                    height: 12px;
+                                    background: #E95D2A;
+                                    &_price-old{
+                                        font-family: 'Inter', sans-serif;
+                                        font-weight: 400;
+                                        font-size: 10px;
+                                        text-decoration-line: line-through;
+                                        color: gray;
+                                    }
+                                    &_action-div{
+                                        display: flex;
+                                        align-items: center;
+                                        width: 33.65px;
+                                        height: 10px;
+                                        background: yellow;
+                                        border-radius: 3px;
+                                        font-family: 'Inter', sans-serif;
+                                        font-weight: 400;
+                                        font-size: 10px;
+                                    }
+                                }
+                                &_action-price{
+                                    font-weight: 600;
+                                    font-size: 20PX;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    span{
+        color: #e95d2a;
     }
 }
