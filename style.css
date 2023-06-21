@@ -222,6 +222,7 @@
   height: 47px;
   background: rgb(123, 178, 34);
   margin: 0 auto;
+  justify-content: space-between;
 }
 .header_down-container_contenet-down_burger-menu {
   display: flex;
@@ -246,6 +247,128 @@
 }
 .header_down-container_contenet-down_burger-menu:focus + .list {
   display: flex;
+}
+.header_down-container_contenet-down_search-panel {
+  width: 591.36px;
+  height: 46px;
+  background: rgba(255, 255, 255, 0.3);
+  margin-left: 80px;
+  border-radius: 4px 4px 4px 4px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 24px;
+}
+.header_down-container_contenet-down_search-panel_svg {
+  width: 13px;
+  height: 13px;
+}
+.header_down-container_contenet-down_search-panel_input {
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+}
+.header_down-container_contenet-down_search-panel_input::-moz-placeholder {
+  color: #fff;
+}
+.header_down-container_contenet-down_search-panel_input::placeholder {
+  color: #fff;
+}
+.header_down-container_contenet-down_search-panel_microphone {
+  width: 29.88px;
+  height: 29.88px;
+}
+.header_down-container_contenet-down_search-panel_btn {
+  width: 90.41px;
+  height: 46px;
+  border: none;
+  border-radius: 0px 4px 4px 0px;
+  background: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+.header_down-container_contenet-down_stats-account {
+  display: flex;
+  align-items: center;
+  width: 374px;
+  height: 34px;
+  background: darkolivegreen;
+  justify-content: space-between;
+}
+.header_down-container_contenet-down_stats-account_comparison {
+  width: 22.02px;
+  height: 18px;
+}
+.header_down-container_contenet-down_stats-account_heart {
+  width: 20.25px;
+  height: 18px;
+}
+.header_down-container_contenet-down_stats-account_bonus-container {
+  display: flex;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+  width: 116.95px;
+  height: 34px;
+  background: salmon;
+  display: flex;
+  align-items: center;
+}
+.header_down-container_contenet-down_stats-account_bonus-container_svg {
+  width: 21px;
+  height: 21px;
+}
+.header_down-container_contenet-down_stats-account_bonus-container_title-container_up {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.header_down-container_contenet-down_stats-account_bonus-container_title-container_down {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 2.93px;
+       column-gap: 2.93px;
+}
+.header_down-container_contenet-down_stats-account_bonus-container_title-container_down_title {
+  width: 50px;
+  height: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #fff;
+}
+.header_down-container_contenet-down_stats-account_bonus-container_title-container_down_sum {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36.02px;
+  height: 17px;
+  background: yellow;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  border-radius: 3px;
+}
+.header_down-container_contenet-down_stats-account_basket-container {
+  display: flex;
+  align-items: center;
+  width: 119px;
+  height: 31px;
+  background: forestgreen;
+}
+.header_down-container_contenet-down_stats-account_basket-container_svg {
+  width: 25.88px;
+  height: 23px;
+}
+.header_down-container_contenet-down_stats-account_basket-container_title-container_down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 86.02px;
+  height: 17px;
+  background: yellow;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
 }
 
 .list {
@@ -420,4 +543,16 @@
   font-weight: 400;
   font-size: 11px;
   color: #fff;
+}
+
+.slider {
+  position: relative;
+  display: flex;
+  width: 1075px;
+  height: 326px;
+}
+
+.slider-img {
+  width: 1075px;
+  height: 326px;
 }/*# sourceMappingURL=style.css.map */
