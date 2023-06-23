@@ -13,19 +13,16 @@
     flex-direction: column;
     &_top-container{
         height: 45px;
-        background: forestgreen;
         &_content-top{
             display: flex;
             align-items: center;
             width: 1385px;
             height: 45px;
-            background: firebrick;
             margin: 0 auto;
             &_logo-container{
                 display: flex;
                 width: 196px;
                 height: 26.7px;
-                background: darkgoldenrod;
                 &_svg{
                 width: 160px;
                 height: 100%;
@@ -40,7 +37,6 @@
                 align-items: center;
                 width: 37px;
                 height: 16px;
-                background: darkmagenta;
                 column-gap: 5.8px;
                 margin-left: 42.16px;
                 &_title{
@@ -58,14 +54,12 @@
                 align-items: center;
                 width: 288px;
                 height: 13px;
-                background: darkgrey;
                 justify-content: space-between;
                 margin-left: 105px;
                 &_action-container{
                     display: flex;
                     width: 62.58px;
                     height: 13px;
-                    background: fuchsia;
                     align-items: center;
                     &_svg{
                         width: 13px;
@@ -83,7 +77,6 @@
                     column-gap: 7px;
                     width: 118.47px;
                     height: 12px;
-                    background: cornflowerblue;
                     &_svg{
                         width: 12px;
                         height: 12px;
@@ -99,7 +92,6 @@
                     align-items: center;
                     width: 66.59px;
                     height: 12px;
-                    background: darkturquoise;
                     column-gap: 7px;
                     &_svg{
                         width: 9px;
@@ -118,14 +110,12 @@
                 justify-content: space-between;
                 width: 450px;
                 height: 16px;
-                background: rgb(146, 141, 182);
                 margin-left: 268px;
                 &_shop-container{
                     display: flex;
                     align-items: center;
                     width: 70.61px;
                     height: 15px;
-                    background: darkgreen;
                     column-gap: 8.21px;
                     &_title{
                         @include Inter (400);
@@ -142,7 +132,6 @@
                     align-items: center;
                     width: 72.39px;
                     height: 12px;
-                    background: firebrick;
                     column-gap: 9.79px;
                     &_title{
                         @include Inter(400);
@@ -158,7 +147,6 @@
                     display: flex;
                     width: 55px;
                     height: 16px;
-                    background: rgb(74, 74, 226);
                     &_UA{
                         display: flex;
                         justify-content: center;
@@ -200,26 +188,30 @@
                     color: white;
                 }
             }
+            &__mobile-btn{
+                display: none;
+            }
+            &_burger-menu{
+                display: none;
+            }
         }
     }
     &_down-container{
         display: flex;
         align-items: center;
         height: 63px;
-        background: darkgreen;
         &_contenet-down{
             display: flex;
             align-items: center;
             width: 1393px;
             height: 47px;
-            background: rgb(123, 178, 34);
             margin: 0 auto;
             justify-content: space-between;
             &_burger-menu{
                 display: flex;
                 width: 123px;
                 height: 15px;
-                background: black;
+                background: none;
                 border: none;
                 padding: 0;
                 align-items: center;
@@ -228,13 +220,13 @@
                     width: 12px;
                     height: 11px;
                 }
+                &_svg-mobile{
+                    display: none
+                }
                 &_title{
                     @include Inter(400);
                     font-size: 11px;
                     color: white;
-                }
-                &:focus +.list{
-                    display: flex;
                 }
             }
             &_search-panel{
@@ -277,7 +269,6 @@
                 align-items: center;
                 width: 374px;
                 height: 34px;
-                background: darkolivegreen;
                 justify-content: space-between;
                 &_comparison{
                     width: 22.02px;
@@ -292,7 +283,6 @@
                     column-gap: 7px;
                     width: 116.95px;
                     height: 34px;
-                    background: salmon;
                     display: flex;
                     align-items: center;
                     &_svg{
@@ -335,12 +325,12 @@
                     align-items: center;
                     width: 119px;
                     height: 31px;
-                    background: forestgreen;
                     &_svg{
                         width: 25.88px;
                         height: 23px;
                     }
                     &_title-container{
+                        color:rgba(255, 255, 255, 0.5);
                         &_down{
                             display: flex;
                             align-items: center;
@@ -350,6 +340,7 @@
                             background: yellow;
                             @include Inter(400);
                             font-size: 10px;
+                            color:black;
                         }
                     }
                 }
@@ -358,7 +349,7 @@
     }
 }
 .list{
-    display: none;
+    display: flex;
     row-gap: 3.64px;
     flex-direction: column;
     position: absolute;
@@ -367,7 +358,7 @@
     list-style: none;
     width: 330px;
     height: 625px;
-    background: salmon;
+
     padding-top: 19px;
     border-radius:  0 0 20px 20px;
     &_item{
@@ -375,9 +366,9 @@
         align-items: center;
         width: 330px;
         height: 37px;
-        background: darkcyan;
         justify-content: space-between;
         padding: 0 15px;
+        cursor: pointer;
         &_dicrout-container{
             display: flex;
             column-gap: 10px;
@@ -514,6 +505,7 @@
 }
 .slider{
     position: relative;
+    left: 383px;
     display: flex;
     width: 1075px;
     height: 326px;
@@ -521,4 +513,248 @@
 .slider-img{
     width: 1075px;
     height: 326px;
+}
+@media screen and (max-width:425px){
+    .header{
+        width: 425px;
+        padding: 0 16px;
+        &_top-container{
+            order: 1;
+            &_content-top{
+                width: 393px;
+                &_logo-container{
+                    display: none;
+                }
+                &_city-btn{
+                    display: none;
+                }
+                &_items{
+                    display: none;
+                }
+                &_right-content{
+                    display: none;
+                }
+                &_burger-menu{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 392px;
+                    height: 35px;
+                    background: black;
+                    border: none;
+                    padding: 0;
+                    align-items: center;
+                    column-gap: 8px;
+                    border-radius: 4px;
+                    &_svg{
+                        width: 12px;
+                        height: 11px;
+                    }
+                    &_svg-mobile{
+                        display: none
+                    }
+                    &_title{
+                        @include Inter(400);
+                        font-size: 11px;
+                        color: white;
+                    }
+                }
+            }
+        }
+        &_down-container{
+            order: 0;
+            &_contenet-down{
+                width: 393px;
+                &_stats-account{
+                    width: 25.88px;
+                    height: 23.2px;
+                    &_comparison{
+                        display: none;
+                    }
+                    &_heart{
+                        display: none;
+                    }
+                    &_bonus-container{
+                        display: none;
+                    }
+                    &_basket-container{
+                        width: 25.88px;
+                        height: 23.2px;
+                        &_svg-mobile{
+                            width: 38px;
+                            height: 50px;
+                        }
+                        &_title-container{
+                            display: none;
+                        }
+                    }
+                }
+                &_burger-menu{
+                    width: 38px;
+                    height: 50px;
+                    background: none;
+                    &_svg{
+                        display: none;
+                    }
+                    &_svg-mobile{
+                        display: block;
+                        width: 38px;
+                        height: 50px;
+                    }
+                    &_title{
+                        display: none;
+                    }
+                }
+                &_search-panel{
+                    width: 301.13px;
+                    height: 46px;
+                    margin-left: 0;
+                    &_microphone{
+                        display: flex;
+                    }
+                    &_btn{
+                        display: none;
+                    }
+                    &_svg{
+                        fill: black;
+                    }
+                }
+            }
+        }
+    }
+    .list{
+        display: none;
+    }
+    .slider{
+        width: 412px;
+        position: relative;
+        left: 13px;
+        height: 170px;
+    }
+    .slider-img{
+        width: 412px;
+    }
+}
+@media screen and (max-width:768px){
+    .header{
+        width: 768px;
+        padding: 0 16px;
+        &_top-container{
+            order: 1;
+            &_content-top{
+                display: flex;
+                justify-content: center;
+                width: 736px;
+                &_logo-container{
+                    display: none;
+                }
+                &_city-btn{
+                    display: none;
+                }
+                &_items{
+                    display: none;
+                }
+                &_right-content{
+                    display: none;
+                }
+                &_burger-menu{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 736px;
+                    height: 35px;
+                    background: black;
+                    border: none;
+                    padding: 0;
+                    align-items: center;
+                    column-gap: 8px;
+                    border-radius: 4px;
+                    &_svg{
+                        width: 12px;
+                        height: 11px;
+                    }
+                    &_svg-mobile{
+                        display: none
+                    }
+                    &_title{
+                        @include Inter(400);
+                        font-size: 11px;
+                        color: white;
+                    }
+                }
+            }
+        }
+        &_down-container{
+            order: 0;
+            &_contenet-down{
+                width: 736px;
+                &_stats-account{
+                    width: 25.88px;
+                    height: 23.2px;
+                    &_comparison{
+                        display: none;
+                    }
+                    &_heart{
+                        display: none;
+                    }
+                    &_bonus-container{
+                        display: none;
+                    }
+                    &_basket-container{
+                        width: 25.88px;
+                        height: 23.2px;
+                        &_svg-mobile{
+                            width: 38px;
+                            height: 50px;
+                        }
+                        &_title-container{
+                            display: none;
+                        }
+                    }
+                }
+                &_burger-menu{
+                    width: 38px;
+                    height: 50px;
+                    background: none;
+                    &_svg{
+                        display: none;
+                    }
+                    &_svg-mobile{
+                        display: block;
+                        width: 38px;
+                        height: 50px;
+                    }
+                    &_title{
+                        display: none;
+                    }
+                }
+                &_search-panel{
+                    width: 532px;
+                    height: 46px;
+                    margin-left: 0;
+                    &_btn{
+                        display: none;
+                    }
+                    &_svg{
+                        fill: black;
+                    }
+                    &_microphone{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .list{
+        display: none;
+    }
+    .slider{
+        width: 753px;
+        position: relative;
+        left: 13px;
+        height: 170px;
+    }
+    .slider-img{
+        width: 753px;
+    }
 }
