@@ -352,13 +352,9 @@
     display: flex;
     row-gap: 3.64px;
     flex-direction: column;
-    position: absolute;
-    left:51px;
-    top:108px;
     list-style: none;
     width: 330px;
     height: 625px;
-
     padding-top: 19px;
     border-radius:  0 0 20px 20px;
     &_item{
@@ -504,7 +500,6 @@
     color: #fff;
 }
 .slider{
-    position: relative;
     display: flex;
     width: 1075px;
     height: 326px;
