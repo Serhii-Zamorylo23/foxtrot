@@ -497,6 +497,73 @@
                 }
             }
         }
+        &_sliderAndTop{
+            &_product-container{
+                width: 1075px;
+                height: 266px;
+                background: firebrick;
+                margin-top: 24px;
+                &_navigation{
+                    display: flex;
+                    align-items: center;
+                    width: 1060px;
+                    height: 24px;
+                    background: gold;
+                    margin-left:15px;
+                    justify-content: space-between;
+                    &_title{
+                        @include Inter(400);
+                        font-size: 21px;
+                    }
+                    &_btns{
+                        display: flex;
+                        width: 56px;
+                        height: 24px;
+                        background: forestgreen;
+                        column-gap: 8px;
+                        &_left{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 24px;
+                            height: 24px;
+                            border-radius: 4px;
+                            background: #E95D2A;
+                            &_svg{
+                                width: 7.2px;
+                                height: 11px;
+                            }
+                        }
+                        &_right{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 24px;
+                            height: 24px;
+                            border-radius: 4px;
+                            background: #E95D2A;
+                            &_svg{
+                                width: 7.2px;
+                                height: 11px;
+                            }
+                        }
+                    }
+                }
+                &_item-container{
+                    display: flex;
+                    width: 1075px;
+                    height: 220px;
+                    background: fuchsia;
+                    margin-top: 16.14px;
+                    column-gap: 15px;
+                    &_card{
+                        width: 279.59px;
+                        height: 220px;
+                        background: forestgreen;
+                    }
+                }
+            }
+        }
     }
 }
 .end{
