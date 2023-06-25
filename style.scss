@@ -563,11 +563,124 @@
         }
     }
     &_brends-container{
-        width: 1409px;
-        height: 148px;
+        display: flex;
+        flex-direction: column;
+        width: 1408px;
+        height: 147px;
         background: tomato;
         margin:  0 auto;
         margin-top: 31.86px;
+        row-gap: 20px;
+        margin-bottom: 32.86px;
+        &_title{
+            @include Inter(400);
+            font-size: 21px;
+        }
+        &_brend{
+            border-radius: 20px;
+            justify-content: space-around;
+            width: 1408px;
+            height: 105px;
+            background: darkolivegreen;
+            &_samsung-svg{
+                width: 116px;
+                height: 23px;
+            }
+        }
+    }
+    &_best-product-container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 23.14px;
+        width: 1408px;
+        height: 461px;
+        background: firebrick;
+        margin: 0 auto;
+        &_navigatopn{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1408px;
+            height: 30px;
+            background: forestgreen;
+            &_title{
+                @include Inter(400);
+                font-size: 22px;
+            }
+            &_btn-container{
+                display: flex;
+                column-gap: 8px;
+                width: 54px;
+                height: 24px;
+                &_left{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 24px;
+                    height: 24px;
+                    background: rgba(190, 190, 190, 1);
+                    border-radius: 4px;
+                    &_svg{
+                        width: 7.02px;
+                        height: 11px;
+                    }
+                }
+                &_right{
+                    display: flex;
+                    width: 24px;
+                    height: 24px;
+                    background: #E95D2A;
+                    border-radius: 4px;
+                    justify-content: center;
+                    align-items: center;
+                    &_svg{
+                        width: 7.02px;
+                        height: 11px;
+                    }
+                }
+            }
+        }
+        &_product{
+            display: flex;
+            width: 100%;
+            height: 411px;
+            background: gold;
+            &_item{
+                width: 280.8px;
+                height: 410.8px;
+                background: red;
+                border-right: 0.1mm solid #6666663a;
+                padding:  16px 15px;
+                &_header{
+                    display: flex;
+                    width: 250.81px;
+                    height: 202px;
+                    background: blue;
+                    flex-direction: column;
+                    &_disc{
+                        width: 55.94px;
+                        height: 19px;
+                    }
+                    &_product{
+                        margin:  0 auto;
+                        margin-top: 18.86px;
+                        width: 170px;
+                        height: 126px;
+                    }
+                }
+                &_main{
+                    width: 250.8px;
+                    height: 142.8px;
+                    background: yellow;
+                }
+                &_footer{
+                    margin-top: 15px;
+                    width: 250.8px;
+                    height: 19px;
+                    background: darkmagenta;
+                }
+            }
+        }
     }
 }
 .end{
@@ -585,6 +698,13 @@
 .slider-img{
     width: 1075px;
     height: 326px;
+}
+span{
+    position: relative;
+    top: -9px;
+    @include Inter(400);
+    font-size: 13px;
+    color: #E95D2A;
 }
 @media screen and (max-width:425px){
     .header{
