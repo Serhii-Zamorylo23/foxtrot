@@ -703,10 +703,99 @@
   width: 170px;
   height: 126px;
 }
+.main_best-product-container_product_item_header_options {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 15px;
+  position: relative;
+  top: -124px;
+  left: 231px;
+  display: flex;
+  width: 19.56px;
+  height: 47px;
+  background: darkmagenta;
+}
+.main_best-product-container_product_item_header_options_heart {
+  width: 18px;
+  height: 16px;
+}
 .main_best-product-container_product_item_main {
   width: 250.8px;
   height: 142.8px;
   background: yellow;
+}
+.main_best-product-container_product_item_main_name {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18.4px;
+}
+.main_best-product-container_product_item_main_feedback {
+  margin-top: 8px;
+  width: 105.9px;
+  height: 26px;
+  background: rgb(210, 30, 210);
+}
+.main_best-product-container_product_item_main_buy-container {
+  display: flex;
+  align-items: end;
+  margin-top: 4.56px;
+  width: 251px;
+  height: 53px;
+  background: green;
+  -moz-column-gap: 52.67px;
+       column-gap: 52.67px;
+}
+.main_best-product-container_product_item_main_buy-container_price {
+  width: 103px;
+  height: 53px;
+  background: firebrick;
+}
+.main_best-product-container_product_item_main_buy-container_price_old-container {
+  display: flex;
+  align-items: center;
+  height: 19px;
+  background: mediumslateblue;
+  -moz-column-gap: 8.28px;
+       column-gap: 8.28px;
+}
+.main_best-product-container_product_item_main_buy-container_price_old-container_old {
+  text-decoration-line: line-through;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #666666;
+}
+.main_best-product-container_product_item_main_buy-container_price_old-container_discrout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28.39px;
+  height: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 9px;
+  border-radius: 5px;
+  background: yellow;
+}
+.main_best-product-container_product_item_main_buy-container_price_now {
+  flex-wrap: nowrap;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 29px;
+  letter-spacing: -0.16px;
+}
+.main_best-product-container_product_item_main_buy-container_btn {
+  width: 95px;
+  height: 32px;
+  border: none;
+  background: rgb(233, 93, 42);
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  color: white;
 }
 .main_best-product-container_product_item_footer {
   margin-top: 15px;

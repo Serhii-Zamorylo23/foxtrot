@@ -667,11 +667,93 @@
                         width: 170px;
                         height: 126px;
                     }
+                    &_options{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        row-gap: 15px;
+                        position: relative;
+                        top:-124px;
+                        left: 231px;
+                        display: flex;
+                        width: 19.56px;
+                        height: 47px;
+                        background: darkmagenta;
+                        &_heart{
+                            width: 18px;
+                            height: 16px;
+                        }
+                    }
                 }
                 &_main{
                     width: 250.8px;
                     height: 142.8px;
                     background: yellow;
+                    &_name{
+                        @include Inter(400);
+                        font-size: 12px;
+                        line-height: 18.4px;
+                    }
+                    &_feedback{
+                        margin-top: 8px;
+                        width: 105.9px;
+                        height: 26px;
+                        background: rgb(210, 30, 210);
+                    }
+                    &_buy-container{
+                        display: flex;
+                        align-items: end;
+                        margin-top: 4.56px;
+                        width: 251px;
+                        height: 53px;
+                        background: green;
+                        column-gap: 52.67px;
+                        &_price{
+                            width: 103px;
+                            height: 53px;
+                            background: firebrick;
+                            &_old-container{
+                                display: flex;
+                                align-items: center;
+                                height: 19px;
+                                background: mediumslateblue;
+                                column-gap: 8.28px;
+                                &_old{
+                                    text-decoration-line: line-through;
+                                    @include Inter(400);
+                                    font-size: 12px;
+                                    color: #666666;
+                                }
+                                &_discrout{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 28.39px;
+                                    height: 17px;
+                                    @include Inter(400);
+                                    font-size: 9px;
+                                    border-radius: 5px;
+                                    background: yellow
+                                }
+                            }
+                            &_now{
+                                flex-wrap:nowrap; 
+                                @include Inter(600);
+                                font-size: 29px;
+                                letter-spacing: -0.16px;
+                            }
+                        }
+                        &_btn{
+                            width: 95px;
+                            height: 32px;
+                            border: none;
+                            background: rgba(233, 93, 42, 1);
+                            border-radius: 4px;
+                            @include Inter(500);
+                            font-size: 12px;
+                            color: white;
+                        }
+                    }
                 }
                 &_footer{
                     margin-top: 15px;
